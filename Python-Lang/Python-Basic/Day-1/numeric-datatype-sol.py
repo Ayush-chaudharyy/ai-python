@@ -1,146 +1,146 @@
-# # QUESTION-1
-# a = 25
-# b = 7
-# print(a + b)
-# print(a - b)
-# print(a * b)
-# print(a / b)
-# print(a // b)
-# print(a % b)
-# print(a ** b)
+# QUESTION-1
+a = 25
+b = 7
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
 
 
-# # QUESTION - 2
-# a = int(input('Enter a number:-'))
-# b = int(input('Enter a number:-'))
-# print('Addittion:-',a + b)
-# print('Substraction:-',a - b)
-# print('Multiplication:-',a * b)
-# print('Floor division:-',a // b)
-# print('Reminder:-',a % b)
+# QUESTION - 2
+a = int(input('Enter a number:-'))
+b = int(input('Enter a number:-'))
+print('Addittion:-',a + b)
+print('Substraction:-',a - b)
+print('Multiplication:-',a * b)
+print('Floor division:-',a // b)
+print('Reminder:-',a % b)
 
 
-# # QUESTION-3
-# num = int(input('Enter a number:-'))
-# print(num * 2)
-# print(num * 3)
-# print(num * 5)
-# print(num ** 2)
+# QUESTION-3
+num = int(input('Enter a number:-'))
+print(num * 2)
+print(num * 3)
+print(num * 5)
+print(num ** 2)
 
-# # QUESTION-4
-# x = 50
-# x += 25
-# print(x)
+# QUESTION-4
+x = 50
+x += 25
+print(x)
 
-# x -= 10
-# print(x)
+x -= 10
+print(x)
 
-# x *= 2
-# print(x)
+x *= 2
+print(x)
 
-# x //= 5
-# print(x)
-
-
-# # QUESTION-5
-# a = int(input('Enter a two digit intiger:-'))
-# tens = a // 10
-# once = a % 10
-# print('Tense value is',tens)
-# print('once value is',once)
+x //= 5
+print(x)
 
 
-# # QUESTION-6
-# a = int(input('Enter a two digit intiger:-'))
-# tens = a // 10
-# once = a % 10
-
-# print(f'reverse is {once}{tens}')
-
-
-# # QUESTION-7
-# a = int(input('Enter a three digit intiger:-'))
-# hundred = a // 100
-# tens = (a % 100) // 10
-# once = (a % 100) % 10 
-# print(hundred)
-# print(tens)
-# print(once)
-
-# # QUESTION-8
-# a = int(input('Enter a three digit value'))
-# hundred = a // 100
-# tens = (a % 100) // 10
-# once = (a % 100) % 10 
-# sum = hundred + tens + once
-# print(sum)
-
-# # QUESTION-9
-# a = int(input('Enter a value:-'))
-# last_digi = a % 10
-# print(last_digi)
+# QUESTION-5
+a = int(input('Enter a two digit intiger:-'))
+tens = a // 10
+once = a % 10
+print('Tense value is',tens)
+print('once value is',once)
 
 
+# QUESTION-6
+a = int(input('Enter a two digit intiger:-'))
+tens = a // 10
+once = a % 10
+
+print(f'reverse is {once}{tens}')
 
 
-# # QUESTION-11
-# total_seco = int(input('Enter a total second'))
-# hour = total_seco // 3600
-# rem_sec = total_seco % 3600
+# QUESTION-7
+a = int(input('Enter a three digit intiger:-'))
+hundred = a // 100
+tens = (a % 100) // 10
+once = (a % 100) % 10 
+print(hundred)
+print(tens)
+print(once)
 
-# min = rem_sec // 60
-# second = rem_sec % 60
-# print(f'hours:-{hour},minutes:-{min},second:-{second}')
+# QUESTION-8
+a = int(input('Enter a three digit value'))
+hundred = a // 100
+tens = (a % 100) // 10
+once = (a % 100) % 10 
+sum = hundred + tens + once
+print(sum)
 
-# # QUESTION-12
-# age = int(input('Enter a age:-'))
-# total_days = age * 365
-# print('Days lived is :',total_days)
-
-# # QUESTION-13
-# principal = float(input('Enter a principle amount:'))
-# rate = float(input('Enter a rate:'))
-# time = float(input('Enter a time:'))
-
-# sim_int =(principal * rate * time) / 100
-# amount = principal + sim_int
-# print(sim_int)
-# print(amount)
-
-# # QUESTION-14
-# x = int(input('Enter a intiger:'))
-# result = 3*x**2 + 5*x + 10
-# print(result)
-
-# # QUESTION-15
-# x = 10
-# x += 20
-# print(x)
-# x -= 3
-# print(x)
-# x //= 5
-# print(x)
-# x %= 4
-# print(x)
-
-# # QUESTION-16
-# a = 12.5
-# b = 2.5
-# print(a + b)
-# print(a - b)
-# print(a * b)
-# print(a / b)
-# print(a ** b)
+# QUESTION-9
+a = int(input('Enter a value:-'))
+last_digi = a % 10
+print(last_digi)
 
 
-# # QUESTION-17
-# a = float(input('Enter a number:-'))
-# b = float(input('Enter a number:-'))
-# print('Addittion:-',a + b)
-# print('Substraction:-',a - b)
-# print('Multiplication:-',a * b)
-# print('Floor division:-',a / b)
-# print('Reminder:-',a % b)
+
+
+# QUESTION-11
+total_seco = int(input('Enter a total second'))
+hour = total_seco // 3600
+rem_sec = total_seco % 3600
+
+min = rem_sec // 60
+second = rem_sec % 60
+print(f'hours:-{hour},minutes:-{min},second:-{second}')
+
+# QUESTION-12
+age = int(input('Enter a age:-'))
+total_days = age * 365
+print('Days lived is :',total_days)
+
+# QUESTION-13
+principal = float(input('Enter a principle amount:'))
+rate = float(input('Enter a rate:'))
+time = float(input('Enter a time:'))
+
+sim_int =(principal * rate * time) / 100
+amount = principal + sim_int
+print(sim_int)
+print(amount)
+
+# QUESTION-14
+x = int(input('Enter a intiger:'))
+result = 3*x**2 + 5*x + 10
+print(result)
+
+# QUESTION-15
+x = 10
+x += 20
+print(x)
+x -= 3
+print(x)
+x //= 5
+print(x)
+x %= 4
+print(x)
+
+# QUESTION-16
+a = 12.5
+b = 2.5
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a ** b)
+
+
+# QUESTION-17
+a = float(input('Enter a number:-'))
+b = float(input('Enter a number:-'))
+print('Addittion:-',a + b)
+print('Substraction:-',a - b)
+print('Multiplication:-',a * b)
+print('Floor division:-',a / b)
+print('Reminder:-',a % b)
 
 # QUESTION -18
 a = float(input('Enter a number:'))
