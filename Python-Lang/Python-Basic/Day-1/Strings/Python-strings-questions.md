@@ -60,7 +60,7 @@ type()
 
 Create three string variables:
 
-text
+
 name
 course
 university
@@ -395,7 +395,7 @@ Also print the total number of words.
 
 Take the following information from the user:
 
-text
+
 First Name
 Last Name
 Year of Birth
